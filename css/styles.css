@@ -7,6 +7,7 @@
   --secondary-background-color: #f5f4fa;
   --logo-color: #000000;
   --contact-footer-color: rgba(255, 255, 255, 0.6);
+  --icons-color: #afb1b8;
 }
 
 ul {
@@ -22,6 +23,18 @@ body {
   margin: 0 auto;
 }
 
+.icon-envelope-header {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
+
+.icon-smartphone-header {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+}
+
 .navigation-menu {
   display: flex;
   width: 254px;
@@ -33,13 +46,17 @@ body {
 }
 
 .contact-header-1 {
+  display: flex;
+  align-items: center;
   margin-left: 371px;
-  width: 135px;
+  width: 161px;
 }
 
 .contact-header-2 {
+  display: flex;
+  align-items: center;
   margin-left: 50px;
-  width: 110px;
+  width: 130px;
 }
 
 .header-container {
@@ -120,14 +137,17 @@ body {
   line-height: 1.14;
   text-decoration: none;
   color: var(--secondary-text-color);
+  fill: var(--secondary-text-color);
 }
 
 .contact-header:hover {
   color: var(--highlight-color);
+  fill: var(--highlight-color);
 }
 
 .contact-header:focus {
   color: var(--highlight-color);
+  fill: var(--highlight-color);
 }
 
 .contact-footer {
@@ -240,6 +260,65 @@ body {
 
 .descryption-photo-list > .descryption-photo-item:not(:last-child) {
   margin-right: 30px;
+}
+
+.social-media-team-list {
+  width: 206px;
+  height: 44px;
+  margin: 0 auto;
+  margin-top: 16px;
+  display: flex;
+  gap: 10px;
+}
+
+.social-media-team-list > li {
+  width: 44px;
+  height: 44px;
+  fill: var(--icons-color);
+}
+
+.social-media-team-list > li:hover {
+  background-color: var(--highlight-color);
+  border-radius: 50%;
+  fill: var(--secondary-color);
+}
+
+.social-media-team-list > li:focus {
+  background-color: var(--highlight-color);
+  border-radius: 50%;
+  fill: var(--secondary-color);
+}
+
+.social-media-team-list-instagram {
+  width: 20px;
+  height: 20px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 12px;
+}
+
+.social-media-team-list-twitter {
+  width: 20px;
+  height: 20px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 12px;
+}
+
+.social-media-team-list-facebook {
+  width: 20px;
+  height: 20px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 12px;
+}
+
+.social-media-team-list-linkedin {
+  width: 20px;
+  height: 20px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 12px;
 }
 
 .team-section {
@@ -361,16 +440,52 @@ h2 {
 
 .primary-list {
   display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
   width: 1170px;
 }
 
-.primary-list > .primary-list-item:not(:last-child) {
-  margin-right: 30px;
+.primary-list-item-icons {
+  width: 270px;
+  height: 120px;
+  background: var(--secondary-background-color);
+  border-radius: 4px;
+}
+
+.primary-list-item-icon-antenna {
+  width: 65.32px;
+  height: 70px;
+  display: block;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.primary-list-item-icon-clock {
+  width: 66.96px;
+  height: 70px;
+  display: block;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.primary-list-item-icon-diagram {
+  width: 70px;
+  height: 70px;
+  display: block;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.primary-list-item-icon-astronaut {
+  width: 70px;
+  height: 70px;
+  display: block;
+  margin: auto;
+  margin-top: 25px;
 }
 
 .primary-list-item {
   width: 270px;
-  margin-top: 10px;
 }
 
 .footer-address {
