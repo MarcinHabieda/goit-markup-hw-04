@@ -8,6 +8,7 @@
   --logo-color: #000000;
   --contact-footer-color: rgba(255, 255, 255, 0.6);
   --icons-color: #afb1b8;
+  --icons-background-footer: rgba(255, 255, 255, 0.1);
 }
 
 ul {
@@ -101,6 +102,7 @@ body {
   padding-top: 60px;
   padding-left: 15px;
   padding-bottom: 60px;
+  display: flex;
 }
 
 .logo-footer:hover {
@@ -387,6 +389,16 @@ body {
   width: 1170;
 }
 
+.category-list > li:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.category-list > li:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .category-browser-list > .category-list-item:not(:last-child) {
   margin-right: 8px;
 }
@@ -394,11 +406,15 @@ body {
 .list-button:hover {
   background-color: var(--highlight-color);
   color: var(--secondary-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .list-button:focus {
   background-color: var(--highlight-color);
   color: var(--secondary-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .cell-title {
@@ -490,6 +506,7 @@ h2 {
 
 .footer-address {
   margin-top: 20px;
+  width: 246px;
 }
 
 .clients-title {
@@ -568,4 +585,75 @@ h2 {
   display: block;
   margin: auto;
   margin-top: 22.77px;
+}
+
+.social-media-team-list-footer {
+  width: 206px;
+  height: 44px;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.social-media-team-list-footer > li {
+  width: 44px;
+  height: 44px;
+  fill: var(--secondary-color);
+  background-color: var(--icons-background-footer);
+  border-radius: 50%;
+}
+
+.social-media-team-list-footer > li:hover {
+  background-color: var(--highlight-color);
+}
+
+.social-media-team-list-footer > li:focus {
+  background-color: var(--highlight-color);
+}
+
+.social-media-team-list-instagram-footer {
+  width: 20px;
+  height: 20px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 12px;
+}
+
+.social-media-team-list-twitter-footer {
+  width: 20px;
+  height: 20px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 12px;
+}
+
+.social-media-team-list-facebook-footer {
+  width: 20px;
+  height: 20px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 12px;
+}
+
+.social-media-team-list-linkedin-footer {
+  width: 20px;
+  height: 20px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 12px;
+}
+
+.social-media-footer {
+  width: 206px;
+  height: 80px;
+  margin-top: 10px;
+  margin-left: 70px;
+}
+
+.social-media-title-footer {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--secondary-color);
 }
