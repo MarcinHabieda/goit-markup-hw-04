@@ -182,7 +182,7 @@ body {
 
 .welcome-section {
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(./../images/background-img.jpg);
+    url(../images/background-img.jpg);
   background-size: 1600px;
 }
 
