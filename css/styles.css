@@ -181,7 +181,9 @@ body {
 }
 
 .welcome-section {
-  background-color: var(--background-color);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(/images/background-img.jpg);
+  background-size: 1600px;
 }
 
 .title {
@@ -195,8 +197,8 @@ body {
 }
 
 .title-container {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 106px;
+  padding-bottom: 106px;
 }
 
 .title-button {
